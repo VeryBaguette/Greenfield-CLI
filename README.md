@@ -20,3 +20,10 @@ You can simulate a BNB transfer from one account to another using this command:
 
 ```bash
 node main.js --grpcUrl "YOUR_GRPC_URL" --chainId "YOUR_CHAIN_ID" transfer "source_address" "destination_address" "amount"
+
+### Balance Command
+
+The balance command displays the current balance of an account in BNB. Here's how you can use it:
+
+```bash
+node main.js --grpcUrl "YOUR_GRPC_URL" --chainId "YOUR_CHAIN_ID" balance "address"
