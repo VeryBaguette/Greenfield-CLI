@@ -32,7 +32,7 @@ node main.js --grpcUrl "YOUR_GRPC_URL" --chainId "YOUR_CHAIN_ID" balance "addres
 
 ## File Interaction
 
-This CLI application interacts with a balances.json file to store and update account balances. Make sure to have this file in your project root directory with a structure like this:
+This CLI application interacts with a balances.json file to store and update account balances. This file has to be in project root directory with a structure like this:
 
 ```bash
 {
